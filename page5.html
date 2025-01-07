@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Document</title>
+    
     <style>
         .hello {
             background-color: blue;
@@ -14,11 +15,16 @@
         }
         .yes {
             background-color: darkblue;
-            border: solid;
+            text-decoration: none;
             color: white;
             height: 30px;
-            width: 260px;
-            margin: 0%;
+            width: 310px;
+            width: calc(100vw * 0.20);
+            transition: 0.2s all ease-in-out;
+            margin: 0;
+        }
+        .yes:hover{
+            background-color: darkmagenta;        
         }
         .name {
             background-color: lightgray;

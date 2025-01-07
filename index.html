@@ -4,76 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-         .hello {
-            background-color: blue;
-            text-align: center;
-            color: white;
-            padding: 50px;
-        }
-        P{
-            border-style: solid;
-            text-align: center;
-            margin: 10px;
-        }
-        .yes {
-            background-color: darkblue;
-            border: solid;
-            color: white;
-            height: 30px;
-            width: 260px;
-        }
-        .simple {
-            text-decoration: none;
-            color: white;
-            
-        }
-        .no {
-            background-color: lightgray;
-            text-align: center;
-        }
-        .ok {
-            background-color: darkblue;
-            color: white;
-            border-style: none;
-            width: 300px;
-            height: 50px;
-        }
-        .burgers {
-            background-color: lightgrey;
-            text-align: center;
-        }
-        .cut {
-            text-decoration: line-through;
-        }
-        .line {
-            border-top: dotted red;
-        }
-        .barbq {
-            background-color: lightgrey;
-            text-align: center;
-        }
-        .rice {
-            background-color: lightgrey;
-            text-align: center;
-        }
-        .toppings {
-            background-color: lightgrey;
-            text-align: center;
-        }
-        .deals {
-            background-color: lightgrey;
-            text-align: center;
-        }
-        .others {
-            background-color: lightgrey;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     
         <h1 class="hello">Welcome To <br>Online Shopping Center</h1>
+
+        <img src="images/shopping.png" class="images">
+
+        
         <table>
             <tr>               
                 <th class="yes">HOME</th>
@@ -83,7 +23,9 @@
                 <th class="yes"><a href="page5.html" class="simple">CONTACT</a></th>
             </tr>
         </table>
+        
         <h1 class="no">OUR FAST FOOD MENU</h1>
+        
         <center>
             <table border="1">
                 <tr class="ok">
@@ -99,41 +41,42 @@
             </table>
         </center>
         <h1 class="burgers" id="Burgers">BURGERS</h1>
-        <ul>
-            <li><span>Zinger Burger ...............................................</span><span class="cut">Rs.300</span><span><u>Rs.240</u></span></li>
-            <li><span>Zinger Cheese Burger ..........................................</span><span class="cut">Rs320</span><span><u>Rs.280</u></span></li>
-            <li><span>Chicken Burger .............................................................</span><span class="cut">Rs.200</span><span><u>Rs.150</u></span></li>
-            <li><span>Zinger Cheese Burger .............................................................</span><span class="cut">Rs.220</span><span><u>Rs.170</u></span></li>
+        <ul class="back">
+            <li><span><strong>Zinger Burger ...............................................</strong></span><span class="cut">Rs.300</span><span><u>Rs.240</u></span></li>
+            <li><span><strong>Zinger Cheese Burger ..........................................</strong></span><span class="cut">Rs320</span><span><u>Rs.280</u></span></li>
+            <li><span><strong>Chicken Burger .............................................................</strong></span><span class="cut">Rs.200</span><span><u>Rs.150</u></span></li>
+            <li><span><strong>Zinger Cheese Burger .............................................................</strong></span><span class="cut">Rs.220</span><span><u>Rs.170</u></span></li>
         </ul>
         <h1 class="barbq" id="Bar.B.Q">Bar B.Q</h1>
-        <ul>
-            <li><span>Zinger Burger ...............................................</span><span class="cut">Rs.300</span><span><u>Rs.240</u></span></li>
-            <li><span>Zinger Cheese Burger ..........................................</span><span class="cut">Rs320</span><span><u>Rs.280</u></span></li>
-            <li><span>Chicken Burger .............................................................</span><span class="cut">Rs.200</span><span><u>Rs.150</u></span></li>
-            <li><span>Zinger Cheese Burger ............................................................</span><span class="cut">Rs.220</span><span><u>Rs.170</u></span></li>
+        <ul class="back">
+            <li><span><strong>Zinger Burger ...............................................</strong></span><span class="cut">Rs.300</span><span><u>Rs.240</u></span></li>
+            <li><span><strong>Zinger Cheese Burger ..........................................</strong></span><span class="cut">Rs320</span><span><u>Rs.280</u></span></li>
+            <li><span><strong>Chicken Burger .............................................................</strong></span><span class="cut">Rs.200</span><span><u>Rs.150</u></span></li>
+            <li><span><strong>Zinger Cheese Burger ............................................................</strong></span><span class="cut">Rs.220</span><span><u>Rs.170</u></span></li>
         </ul>
         <h1 class="rice" id="Rice">Rice</h1>
-        <ul>
-            <li><span> Biryani ..........................................................</span><span class="cut">Rs.300</span><span><u>Rs.240</u></span></li>
-            <li><span>Beef biryani ..........................................................</span><span class="cut">Rs320</span><span><u>Rs.280</u></span></li>
-            <li><span>Pulao ..............................................................................</span><span class="cut">Rs.200</span><span><u>Rs.150</u></span></li>
-            <li><span> Beef Pulao ..............................................................................</span><span class="cut">Rs.220</span><span><u>Rs.170</u></span></li>
+        <ul class="come">
+            <li><span><strong>Biryani ..........................................................</strong></span><span class="cut">Rs.300</span><span><u>Rs.240</u></span></li>
+            <li><span><strong>Beef biryani ..........................................................</strong></span><span class="cut">Rs320</span><span><u>Rs.280</u></span></li>
+            <li><span><strong>Pulao ..............................................................................</strong></span><span class="cut">Rs.200</span><span><u>Rs.150</u></span></li>
+            <li><span><strong>Beef Pulao ..............................................................................</strong></span><span class="cut">Rs.220</span><span><u>Rs.170</u></span></li>
         </ul>
         <h1 class="toppings" id="Toppings">Toppings</h1>
-        <ul>
+        <ul class="top">
             <li><span>TOP ..............................................................</span><span class="cut">Rs.300</span><span><u>Rs.240</u></span></li>
             <li><span>Tops .....................................................................</span><span class="cut">Rs320</span><span><u>Rs.280</u></span></li>
             <li><span>Topping ........................................................................</span><span class="cut">Rs.200</span><span><u>Rs.150</u></span></li>
             <li><span>Toppings ...............................................................................</span><span class="cut">Rs.220</span><span><u>Rs.170</u></span></li>
         </ul>
         <h1 class="deals" id="Deals">Deals</h1>
-        <ul>
+        <ul class="deal">
             <li><span>3 Zinger Combo ..........................................</span><span class="cut">Rs.700</span><span><u>Rs.640</u></span></li>
             <li><span>5 Leg piece Combo ..............................................</span><span class="cut">Rs620</span><span><u>Rs.580</u></span></li>
             <li><span>1kg Beef Biryani With Half kg Pulao ...........................</span><span class="cut">Rs.900</span><span><u>Rs.850</u></span></li>
             <li><span>1kg Biryani with Half kg Beef Pulao ......................................</span><span class="cut">Rs.620</span><span><u>Rs.550</u></span></li>
         </ul>
-        <h1 class="others" id="Others">Others</h1><ul>
+        <h1 class="others" id="Others">Others</h1>
+        <ul class="kabab">
             <li><span>Kabab Burger  ................................................</span><span class="cut">Rs.150</span><span><u>Rs.100</u></span></li>
             <li><span>Egg Kabab Burger ................................................</span><span class="cut">Rs100</span><span><u>Rs.150</u></span></li>
             <li><span>Egg Burger With Soup ...................................................</span><span class="cut">Rs.400</span><span><u>Rs.300</u></span></li>
